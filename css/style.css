@@ -1,18 +1,25 @@
+body {
+  padding: .25rem;
+
+}
+
 h1 {
   text-align: center;
   font-family: Red/Black, sans-serif;
-  color: rgb(199, 19, 19);
+  color: rgb(140, 0, 255);
 }
 
 p {
 
-  text-align: center;
-  color: rgb(233, 174, 48);
+  text-align: justify;
+  text-combine-upright: 2rem;
+  color: rgb(4, 247, 255);
+  font-size: 18px;
 }
 
 .hoverBox {
-  background-color: BLACK;
-
+  background-color: transparent;
+  display: block;
   position: relative;
 
   width: 73%;
@@ -22,13 +29,15 @@ p {
 }
 
 li {
-  color: rgb(233, 174, 48);
+  color: rgb(4, 247, 255);
+  justify-content: center;
+  font-size: 18px;
 
 }
 
 .mybar {
   /* overflow: hidden; */
-  background-color: rgba(221, 20, 47, 0.829);
+  background-color: rgba(111, 0, 255, 0.829);
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -55,7 +64,21 @@ li {
   display: inline;
   padding: 0, 5px;
   margin: 2rem;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.733);
+  min-width: 3rem;
+  min-height: 1rem;
+  padding: .65rem;
+  border-radius: 2rem;
+
+
+
+}
+
+.element>i {
+  min-width: 3rem;
+  min-height: 1rem;
+  padding: .5rem;
+  display: inline-block
 }
 
 .hoverMe:hover {
@@ -69,13 +92,13 @@ li {
 }
 
 .hoverMe {
-  background: transparent;
-
-
+  background: rgba(13, 4, 24, 0.521);
   width: 95%;
   position: absolute;
   display: block;
   left: 10px;
+  padding: 1rem;
+
 }
 
 .IDC {
@@ -143,8 +166,9 @@ li {
 }
 
 .container {
-  padding-top: 3rem;
+  padding-top: 4rem;
   overflow: hidden;
+  padding-bottom: 4rem;
 
 }
 
@@ -158,7 +182,7 @@ li {
   z-index: +2;
   top: 100%;
   width: 40%;
-  background-color: aquamarine;
+  background-color: rgb(13, 4, 24);
   left: 50%;
   min-height: 20rem;
 
@@ -233,4 +257,19 @@ img {
   padding: .5rem;
   flex: 1;
   display: block;
+}
+
+.technologies {
+  padding: 3rem;
+  list-style-type: none;
+
+  display: block;
+  flex-direction: row;
+}
+
+.technologies>li {
+  color: red;
+  flex-direction: row;
+  display: inline-block;
+
 }

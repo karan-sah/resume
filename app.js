@@ -11,12 +11,16 @@ window.onload = function () {
             console.log(repo.name);
 
             var node = document.createElement("LI");
+
             var a = document.createElement("a");
+            a.style.color = 'white';
 
             a.setAttribute("href", repo.url)
             a.innerText = repo.name;
             node.appendChild(a);
+
             document.getElementById('UL').appendChild(node);
+
 
         }
 

@@ -12,8 +12,8 @@ h1 {
 p {
 
   text-align: justify;
-  text-combine-upright: 2rem;
-  color: rgb(4, 247, 255);
+
+  color: white;
   font-size: 18px;
 }
 
@@ -29,7 +29,7 @@ p {
 }
 
 li {
-  color: rgb(4, 247, 255);
+  color: white;
   justify-content: center;
   font-size: 18px;
 
@@ -214,6 +214,7 @@ img {
   height: 10%;
   display: inline;
   width: 10%;
+  border-radius: 6rem;
 }
 
 .githubName {

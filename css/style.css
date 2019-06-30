@@ -1,0 +1,236 @@
+h1 {
+  text-align: center;
+  font-family: Red/Black, sans-serif;
+  color: rgb(199, 19, 19);
+}
+
+p {
+
+  text-align: center;
+  color: rgb(233, 174, 48);
+}
+
+.hoverBox {
+  background-color: BLACK;
+
+  position: relative;
+
+  width: 73%;
+  float: right;
+
+
+}
+
+li {
+  color: rgb(233, 174, 48);
+
+}
+
+.mybar {
+  /* overflow: hidden; */
+  background-color: rgba(221, 20, 47, 0.829);
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  left: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  display: block;
+  text-align: center;
+  z-index: 1;
+}
+
+.navElements {
+  position: relative;
+
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.element {
+  display: inline;
+  padding: 0, 5px;
+  margin: 2rem;
+  background-color: blue;
+}
+
+.hoverMe:hover {
+  /* transform: scale(1.25); */
+
+  /* -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); */
+  animation-name: wizz;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.hoverMe {
+  background: transparent;
+
+
+  width: 95%;
+  position: absolute;
+  display: block;
+  left: 10px;
+}
+
+.IDC {
+  position: block;
+  background-color: rgb(8, 6, 27);
+  display: flexbox;
+  flex: row;
+
+  width: 26%;
+  float: left;
+  bottom: 7rem;
+
+  border: .25rem solid black;
+  overflow: hidden;
+
+
+}
+
+@keyframes wizz {
+  0% {
+    transform: scale(1);
+
+  }
+
+  50% {
+    transform: scale(.89)
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+
+}
+
+.outer {
+  background-color: transparent;
+  height: 13rem;
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+  display: block;
+
+
+}
+
+.left {
+
+  position: relative;
+  display: inline-flexbox;
+  width: 100%;
+
+
+}
+
+.dp {
+  filter: invert();
+  height: 25rem;
+  width: 25rem;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+.container {
+  padding-top: 3rem;
+  overflow: hidden;
+
+}
+
+.info {
+  background-color: rgb(255, 255, 255);
+}
+
+#demo {
+  display: none;
+  position: absolute;
+  z-index: +2;
+  top: 100%;
+  width: 40%;
+  background-color: aquamarine;
+  left: 50%;
+  min-height: 20rem;
+
+
+}
+
+img {
+  padding-top: 0;
+
+}
+
+.GitDp {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  display: flex;
+
+
+  z-index: +2;
+  text-align: left;
+
+
+
+
+
+}
+
+.gitHubDp {
+  position: relative;
+  height: 10%;
+  display: inline;
+  width: 10%;
+}
+
+.githubName {
+  width: 100%;
+  text-align: center;
+}
+
+.repos {
+  text-align: left;
+}
+
+.socialshare {
+  display: inherit;
+  flex-direction: row;
+  background-color: aqua;
+  border-top: 2rem;
+  margin-top: 2rem;
+  border-left: .3rem;
+  margin-left: .3 rem;
+  padding-left: .3rem;
+  justify-content: center;
+  position: relative;
+
+
+
+}
+
+.socialicon {
+  flex: 1;
+
+
+  padding: .5rem;
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
+
+
+.socialicon .fa {
+  font-size: 6rem;
+  padding: .5rem;
+  flex: 1;
+  display: block;
+}

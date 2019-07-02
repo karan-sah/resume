@@ -18,6 +18,8 @@ p {
 }
 
 .hoverBox {
+  max-width: 100%;
+
   background-color: transparent;
   display: block;
   position: relative;
@@ -106,10 +108,10 @@ li {
   display: flexbox;
   flex: row;
   height: inherit;
-  width: 26%;
+  width: 24%;
   float: left;
   bottom: 7rem;
-
+  max-width: 100%;
   border: .25rem solid black;
   overflow: hidden;
 
@@ -247,7 +249,7 @@ img {
 .socialicon {
   flex: 1;
 
-
+  border-radius: 2rem;
   padding: .5rem;
   text-align: center;
   align-content: center;

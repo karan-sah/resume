@@ -14,7 +14,7 @@ window.onload = function () {
 
             var a = document.createElement("a");
             a.style.color = 'white';
-
+            debugger;
             a.setAttribute("href", repo.url)
             a.innerText = repo.name;
             node.appendChild(a);
@@ -29,10 +29,10 @@ window.onload = function () {
     xhttp.send();
 }
 var hoveredfromPane = () => {
-    document.getElementById('demo').style.display = "block";
+    document.getElementById('gitHubPane').style.display = "block";
 }
 var gitHubPane = () => {
-    document.getElementById('demo').style.display = "block";
+    document.getElementById('gitHubPane').style.display = "block";
 }
 // var hideGitHubPane = () => {
 
@@ -47,6 +47,6 @@ var gitHubPane = () => {
 var hideGitHubPanefromPane = () => {
     setTimeout(() => {
 
-        document.getElementById('demo').style.display = "none";
+        document.getElementById('gitHubPane').style.display = "none";
     }, 500)
 }

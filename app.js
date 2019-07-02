@@ -8,17 +8,17 @@ window.onload = function () {
 
         console.log(data)
         for (repo of data) {
-            console.log(repo.name);
+            console.log(repo);
 
             var node = document.createElement("LI");
 
             var a = document.createElement("a");
             a.style.color = 'white';
-            debugger;
-            a.setAttribute("href", repo.url)
+            // debugger;
+            a.setAttribute("href", repo.html_url)
             a.innerText = repo.name;
             node.appendChild(a);
-
+            // console.log(repo.)
             document.getElementById('UL').appendChild(node);
 
 

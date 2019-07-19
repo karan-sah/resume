@@ -295,14 +295,16 @@ img {
   .mybar {
     /* height: fit-content; */
     position: relative;
-    resize: vertical;
+
     padding: 1%;
   }
   .navElements {
   }
+
   .container {
+    margin-top: 2%;
     position: absolute;
-    top: 20%;
+    top: 24%;
   }
 
   .IDC {
